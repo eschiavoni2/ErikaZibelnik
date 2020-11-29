@@ -1,6 +1,7 @@
 import React from 'react';
 // import "./style.css";
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Link } from "react-router-dom";
 
 const Example = (props) => {
   return (
@@ -8,18 +9,20 @@ const Example = (props) => {
     <Layout>
         <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="/resume">Resume</Link>
             </Navigation>
         </Drawer>
         <Content>
