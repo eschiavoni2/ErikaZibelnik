@@ -1,13 +1,13 @@
 import React from 'react';
-// import "./style.css";
+import "./style.css";
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from "react-router-dom";
 
 const Example = (props) => {
   return (
-    <div className="demo-big-content">
+    <div className="demo-big-content navB">
     <Layout>
-        <Header title="Title" scroll>
+        <Header title="Erika Zibelnik" scroll>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
@@ -16,7 +16,7 @@ const Example = (props) => {
                 <Link to="/resume">Resume</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Erika Zibelnik" className="drawer">
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

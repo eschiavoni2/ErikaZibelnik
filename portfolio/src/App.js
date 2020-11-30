@@ -1,5 +1,5 @@
 import './App.css';
-import Jumbo from "./components/Jumbo/index";
+// import Jumbo from "./components/Jumbo/index";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav/index";
 import Landing from "./pages/Landing";
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div>
         <Nav />
-        <Jumbo />
+        {/* <Jumbo /> */}
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/about" component={About} />
