@@ -69,3 +69,7 @@ body {
   margin-bottom: 10px;
   z-index: 3 !important;
 }
+
+.tabs {
+  z-index: 1;
+}
