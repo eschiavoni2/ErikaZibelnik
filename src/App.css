@@ -111,6 +111,10 @@
   margin: auto;
 }
 
+.width {
+  width: 700px !important;
+}
+
 .social-links i {
   color: white;
   font-size: 5em;
