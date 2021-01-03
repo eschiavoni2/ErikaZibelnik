@@ -1,2 +1,0 @@
-# ErikaZibelnik
-Portfolio
