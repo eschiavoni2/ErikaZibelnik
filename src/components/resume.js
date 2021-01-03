@@ -12,25 +12,23 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img
+              {/* <img
                 src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
                 alt="avatar"
                 style={{height: '200px'}}
-                 />
+                 /> */}
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Erika Zibelnik</h2>
             <h4 style={{color: 'grey'}}>Software Engineer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid white', width: '50%'}}/>
             <p>I am interested in a challenging Software Engineer opportunity in an environment where innovation, education, and creativity are valued. I have been passionate about development and will use the skills I learned with consideration of customer needs, functionality, latest technology, and programming standards. I have solid experience in previous places of work with troubleshooting and problem solving. I am a fast learner and strong team player with excellent social skills to interact with any individual.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
+            <hr style={{borderTop: '3px solid white', width: '50%'}}/>
+            <h5>Contact:</h5>
             <p>Melbourne, Florida</p>
-            <h5>Phone</h5>
             <p>(440) 382-9494</p>
-            <h5>Email</h5>
             <p>E.m.zibelnik@gmail.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <hr style={{borderTop: '3px solid white', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
@@ -49,28 +47,35 @@ class Resume extends Component {
                  schoolName="Cleveland State University"
                  schoolDescription="I earned my Bachelor’s degree in Biology."
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
+                <hr style={{borderTop: '3px solid white'}} />
 
               <h2>Experience</h2>
 
             <Experience
               startYear={2019}
               endYear={2020}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              jobName="Veterinary Technician at Rockledge Animal Clinic"
+              jobDescription="Blood draws and catheters, cytologies, loading rooms and gathering patient information, surgery prep and monitoring, x-rays, euthanasia, vaccines, and more."
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2019}
+                endYear={2019}
+                jobName="Biologist at Enviroscience"
+                jobDescription="Snorkeling/scuba for collecting freshwater mussels, variety of survey techniques with randomized sampling to determine quantity and species diversity, measuring/aging/identifying/sexing mussels, tracking mussels, and more."
                 />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+
+              <Experience
+                startYear={2018}
+                endYear={2019}
+                jobName="Education Program Specialist at Lake Erie Nature and Science Center"
+                jobDescription="Educating the public with a variety of programs from 1+ years of age and up, guided nature hikes providing information about the natural world, research, STEM field trips, children’s camps, crafting education programs, creating visual media, creating signage, and training with permanent reside animal ambassadors."
+                />
+              <hr style={{borderTop: '3px solid white'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
+                skill="JavaScript"
+                progress={70}
                 />
                 <Skills
                   skill="HTML/CSS"
@@ -82,7 +87,7 @@ class Resume extends Component {
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={30}
                       />
 
 
