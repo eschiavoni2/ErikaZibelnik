@@ -107,13 +107,13 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 15%;
   margin: auto;
 }
 
-.width {
-  width: 700px !important;
-}
+/* .react {
+  width: 800px !important;
+} */
 
 .social-links i {
   color: white;
