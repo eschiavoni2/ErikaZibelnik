@@ -16,7 +16,7 @@ class Projects extends Component {
           <Grid>
             <Cell col={4}>
           {/* Project 1 */}
-          <Card className="react" shadow={5} style={{minWidth: '450', margin: 'auto', justifyContent: 'space-evenly'}}>
+          <Card className="react" shadow={5} style={{minWidth: '450', margin: 'auto', justifyContent: 'space-evenly', height: '350px' }}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/home.PNG) center / cover'}} ></CardTitle>
             <CardText>
               Pet Pal's a MERN stack web application that allows pet lovers to track their pets.
@@ -29,19 +29,19 @@ class Projects extends Component {
           </Cell>
           <Cell col={4}>
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', height: '350px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/artgalsearch.png) center / cover'}} ></CardTitle>
             <CardText>
               ArtBook is an Express/Mysql2 web application that allows the user to create a profile, and add art from a museum database into their own personalized artbook.
             </CardText>
             <CardActions border>
-              <Button colored><a href="">ArtBook</a></Button>
+              <Button colored><a href="https://quiet-earth-28574.herokuapp.com/">ArtBook</a></Button>
               <Button colored><a href="https://github.com/eschiavoni2/Project2">Github Repo</a></Button>
             </CardActions>
           </Card>
           </Cell>
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', height: '350px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/burger.gif) center / cover'}} ></CardTitle>
             <CardText>
               This is a burger logger with MySQL, Node, and Express. Add a burger, and then devour it!
@@ -53,47 +53,38 @@ class Projects extends Component {
           </Card> 
 
           {/* Project 4 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/burger.gif) center / cover'}} ></CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', height: '350px' }}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/fitness.PNG) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              A nosql and express Fitness Tracker application. This tracker allows the user to enter their workout and look back at their workout dashboard.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://limitless-crag-09447.herokuapp.com/">Fitness Tracker</a></Button>
+              <Button colored><a href="https://github.com/eschiavoni2/Workout-Tracker">GitHub Repo</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card> 
 
           {/* Project 5 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', height: '350px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/budget.gif) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              This is a budget tracking app using express and mongoose, which can be used online or offline. This is a PWA.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://serene-peak-27861.herokuapp.com/">Budget Tracker</a></Button>
+              <Button colored><a href="https://github.com/eschiavoni2/Budget-Tracker">GitHub Repo</a></Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card> 
 
           {/* Project 6 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', height: '350px' }}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(../assets/images/planner.PNG) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Work Day Planner is an application that uses third party APIs and jQuery. This app allows the user to enter informatin in and it shows current/past/present time.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored><a href="https://eschiavoni2.github.io/Work-Day-Scheduler/">Work Day Planner</a></Button>
+              <Button colored><a href="https://github.com/eschiavoni2/Work-Day-Scheduler">GitHub Repo</a></Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -126,7 +117,7 @@ class Projects extends Component {
     return(
       <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
+          <Tab>Projects</Tab>
           {/* <Tab>Angular</Tab>
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab> */}
