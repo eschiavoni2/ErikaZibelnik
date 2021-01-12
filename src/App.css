@@ -1,5 +1,7 @@
 body, .landing-grid, .contact-body, .header-color {
   background-image: url(./background.jpg) !important;
+  background-position: center !important;
+  background-size: cover !important;
 }
 
 .landing-grid {
