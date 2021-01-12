@@ -25,7 +25,7 @@ class Landing extends Component {
 
           {/* LinkedIn */}
           <a 
-            href="https://www.linkedin.com/in/erika-zibelnik-5ab715a4/?senderId=bridget-shannon" 
+            href="https://www.linkedin.com/in/erika-zibelnik-5ab715a4" 
             rel="noopener noreferrer" 
             target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
@@ -33,7 +33,7 @@ class Landing extends Component {
 
           {/* Github */}
           <a 
-            href="http://google.com" 
+            href="https://github.com/eschiavoni2" 
             rel="noopener noreferrer" 
             target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
