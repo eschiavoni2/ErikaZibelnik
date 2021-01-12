@@ -55,7 +55,7 @@ body, .landing-grid, .contact-body, .header-color {
   background: white;
   color: black;
   margin-bottom: 20px;
-  border: thick #656759 solid;
+  border: thin #656759 solid
 }
 
 .contact-grid h2 {
@@ -89,7 +89,8 @@ body, .landing-grid, .contact-body, .header-color {
   opacity: .8;
   width: 75%;
   margin: auto;
-  /* border-radius: 10px; */
+  margin-top: 20px;
+  border: thin #656759 solid
 }
 
 .banner-text h1 {
@@ -127,7 +128,7 @@ body, .landing-grid, .contact-body, .header-color {
 }
 
 .mdl-card, .avatar-img, .resume-right-col {
-  border: thick #656759 solid
+  border: thin #656759 solid
 }
 
 .social-links i {
