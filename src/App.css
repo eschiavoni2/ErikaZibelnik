@@ -4,6 +4,14 @@ body, .landing-grid, .contact-body, .header-color {
   background-size: cover !important;
 }
 
+.mdl-layout__header-row, .resume-right-col {
+  background-color: #f1f4f0 !important;
+}
+
+.mdl-navigation__link, a, .mdl-layout__header-row, .material-icons {
+  color: black !important;
+}
+
 .landing-grid {
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -47,7 +55,7 @@ body, .landing-grid, .contact-body, .header-color {
   background: white;
   color: black;
   margin-bottom: 20px;
-  border: thick black solid;
+  border: thick #656759 solid;
 }
 
 .contact-grid h2 {
@@ -59,7 +67,7 @@ body, .landing-grid, .contact-body, .header-color {
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px dotted #656759;
   width: 50%;
   margin: auto;
 }
@@ -77,7 +85,7 @@ body, .landing-grid, .contact-body, .header-color {
 }
 
 .banner-text {
-  background-color: black;
+  background-color: white;
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -87,17 +95,17 @@ body, .landing-grid, .contact-body, .header-color {
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
+  border-top: 5px dotted black;
   width: 50%;
   margin: auto;
 }
 
 .banner-text p {
-  color: white;
+  color: black;
   font-size: 20px;
   padding: 1em;
 }
@@ -107,6 +115,7 @@ body, .landing-grid, .contact-body, .header-color {
   justify-content: space-between;
   width: 15%;
   margin: auto;
+  color: black !important;
 }
 
 .mdl-grid {
@@ -117,12 +126,12 @@ body, .landing-grid, .contact-body, .header-color {
   margin-bottom: 10px;
 }
 
-.mdl-card, .avatar-img {
-  border: thick black solid
+.mdl-card, .avatar-img, .resume-right-col {
+  border: thick #656759 solid
 }
 
 .social-links i {
-  color: white;
+  color: black;
   font-size: 5em;
   padding: 8px;
 }
